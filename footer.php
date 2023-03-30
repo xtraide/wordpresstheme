@@ -8,8 +8,10 @@
 
         ]) ?>
     </footer>
+    <div>
+        <?= get_option('agence_horaire');?>
+    </div>
     </div>
     <?php wp_footer(); ?>
     </body>
-
     </html>
